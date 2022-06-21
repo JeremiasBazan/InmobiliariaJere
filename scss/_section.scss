@@ -1,0 +1,26 @@
+@mixin important-fon {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section_alquileres {
+        @include important-fon;
+  }
+
+.section_ventas{
+    padding: 10px 0px;
+}
+
+.novedades{
+    /* Animaciones */
+    animation-duration: 14s;
+    animation-name: box2;
+    }
+@keyframes box2 {
+    0% {
+     opacity: 0;
+    }
+    100% {
+      opacity: 2;
+    }
+}

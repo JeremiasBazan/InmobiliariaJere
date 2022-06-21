@@ -1,0 +1,15 @@
+.footer{
+    line-height: 4;
+}
+.menu_footer, .menu_footer li{
+    list-style-type: none;
+    display: inline-block;
+    text-transform: uppercase;
+}
+.menu_footer{
+    a{
+        padding: 15px;
+        color: $bg3;
+        text-decoration: none;
+    }
+}
