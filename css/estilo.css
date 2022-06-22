@@ -17,7 +17,62 @@ body {
   body h4 {
     font-size: 7px; }
 
-.boton, .boton .btn_inicio--venta, .boton .btn_inicio--mg, .boton .btn_contacto--enviar {
+/* comiezno de boton de inico*/
+.button_de--megusta {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px 20px;
+  border: 0px solid #474071;
+  border-radius: 100px;
+  background: #8578d5;
+  background: -webkit-gradient(linear, left top, left bottom, from(#8578d5), to(#474071));
+  background: -moz-linear-gradient(top, #8578d5, #474071);
+  background: linear-gradient(to bottom, #8578d5, #474071);
+  -webkit-box-shadow: #a090ff 0px 0px 27px 0px;
+  -moz-box-shadow: #a090ff 0px 0px 27px 0px;
+  box-shadow: #a090ff 0px 0px 27px 0px;
+  text-shadow: #2a2643 1px 1px 1px;
+  font: normal normal bold 15px arial;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase; }
+
+.button_de--megusta :hover {
+  border: 0px solid #534b85;
+  background: #a090ff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#a090ff), to(#554d88));
+  background: -moz-linear-gradient(top, #a090ff, #554d88);
+  background: linear-gradient(to bottom, #a090ff, #554d88);
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase; }
+
+.button_de--megusta :active {
+  background: #474071;
+  background: -webkit-gradient(linear, left top, left bottom, from(#474071), to(#474071));
+  background: -moz-linear-gradient(top, #474071, #474071);
+  background: linear-gradient(to bottom, #474071, #474071);
+  text-transform: uppercase; }
+
+.button_de--megusta :focus {
+  text-transform: uppercase; }
+
+.button_de--megusta :before {
+  content: "\0000a0";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  line-height: 24px;
+  margin: 0 4px -6px -4px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABhUlEQVRIib3WsW4TQRAG4C8nF64okIWiKFXEA0RRAi1KQ2ORF3Bh0SAeKEI8hJWkTEOfRELwAjSAlcZyQWGaCIqdJMvhu1uHhF866W5v5p+53Zn5b00Z+tjEejxf4ht+FvovRQ9DTDDDr9o1wxFehe1SrDWs7+A9djHFMS7iHjawF+SbOMdbfCzJfIwFvmLUll28G4XtInw7ya9wikFJNoHH4XPVFmQnsjiVDnVV9MN3EVx/oIcz6VPrmVd4jScFQQbBcaa2tUOpMkZLnB7hBz4XBhkF1zBfPML3etQML1YI0guuyfVCX6rpww7HPMh6u6l3mAe3p9InjTucYL8wyDg4t6rMcNpofosPOMCW9mq7aciqgPSfUEmDi9T+XdjHCb7gpeZhd801pfyQS/efdMgz2RZOtJdpTr5ymfIfGu3BRwX3O+y2m4zG7jauBwrGdR7k3gSnSTK3Jcl8plkyn0uSuSFJ5ht86so+R+VW9Of+Fv25NIWH7iD6dfQj07xDpwp+W34DMPtz8Rtl7ZoAAAAASUVORK5CYII=") no-repeat left center transparent;
+  background-size: 100% 100%; }
+
+/* fin de boton de inico*/
+.boton, .boton .btn_inicio--venta {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -32,18 +87,62 @@ body {
     border: 2px solid aqua;
     color: aqua; }
     .boton .btn_inicio--venta:hover {
-      background-color: aqua;
+      background-color: gray;
       color: white; }
-  .boton .btn_inicio--mg {
-    background-color: rgba(72, 72, 72, 0.54);
-    border: 2px solid red;
-    color: red; }
-    .boton .btn_inicio--mg:hover {
-      background-color: red;
-      color: white; }
-  .boton .btn_contacto--enviar {
-    background-color: #656565;
-    border: 2px solid black; }
+
+/*comienzo de boton de enviar--contacto*/
+.button_contac {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px 20px;
+  border: 0px solid #a26619;
+  border-radius: 100px;
+  background: #ffa628;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffa628), to(#a26619));
+  background: -moz-linear-gradient(top, #ffa628, #a26619);
+  background: linear-gradient(to bottom, #ffa628, #a26619);
+  -webkit-box-shadow: #f29a25 0px 0px 6px 0px;
+  -moz-box-shadow: #f29a25 0px 0px 6px 0px;
+  box-shadow: #f29a25 0px 0px 6px 0px;
+  text-shadow: #654010 1px 1px 1px;
+  font: normal normal bold 15px arial;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase; }
+
+.button_contac :hover {
+  border: 0px solid #ca801f;
+  background: #ffc730;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffc730), to(#c27a1e));
+  background: -moz-linear-gradient(top, #ffc730, #c27a1e);
+  background: linear-gradient(to bottom, #ffc730, #c27a1e);
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase; }
+
+.button_contac:active {
+  background: #a26619;
+  background: -webkit-gradient(linear, left top, left bottom, from(#a26619), to(#a26619));
+  background: -moz-linear-gradient(top, #a26619, #a26619);
+  background: linear-gradient(to bottom, #a26619, #a26619);
+  text-transform: uppercase; }
+
+.button_contac:focus {
+  text-transform: uppercase; }
+
+.button_contac:before {
+  content: "\0000a0";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  line-height: 24px;
+  margin: 0 4px -6px -4px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABhUlEQVRIib3WsW4TQRAG4C8nF64okIWiKFXEA0RRAi1KQ2ORF3Bh0SAeKEI8hJWkTEOfRELwAjSAlcZyQWGaCIqdJMvhu1uHhF866W5v5p+53Zn5b00Z+tjEejxf4ht+FvovRQ9DTDDDr9o1wxFehe1SrDWs7+A9djHFMS7iHjawF+SbOMdbfCzJfIwFvmLUll28G4XtInw7ya9wikFJNoHH4XPVFmQnsjiVDnVV9MN3EVx/oIcz6VPrmVd4jScFQQbBcaa2tUOpMkZLnB7hBz4XBhkF1zBfPML3etQML1YI0guuyfVCX6rpww7HPMh6u6l3mAe3p9InjTucYL8wyDg4t6rMcNpofosPOMCW9mq7aciqgPSfUEmDi9T+XdjHCb7gpeZhd801pfyQS/efdMgz2RZOtJdpTr5ymfIfGu3BRwX3O+y2m4zG7jauBwrGdR7k3gSnSTK3Jcl8plkyn0uSuSFJ5ht86so+R+VW9Of+Fv25NIWH7iD6dfQj07xDpwp+W34DMPtz8Rtl7ZoAAAAASUVORK5CYII=") no-repeat left center transparent;
+  background-size: 100% 100%; }
 
 .logo_principal, .footer_logo {
   max-width: 40px; }
