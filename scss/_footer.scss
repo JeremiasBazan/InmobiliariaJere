@@ -1,6 +1,11 @@
 .footer{
     line-height: 4;
 }
+
+.footer_logo{
+    max-width: 45%;
+}
+
 .menu_footer, .menu_footer li{
     list-style-type: none;
     display: inline-block;
@@ -11,5 +16,6 @@
         padding: 15px;
         color: $bg3;
         text-decoration: none;
+        font-size: 17px;
     }
 }

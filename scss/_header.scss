@@ -1,12 +1,15 @@
-.logo_principal, .footer_logo{
-    max-width: 40px;
+.logo_principal{
+    max-width: 100%;
 }
-.nav{
-    padding: 5px;
-    display: grid;
-    justify-content: end;
-    align-items: center;
 
-    text-transform: uppercase;
-    font-size: 20px;
+@media only screen and (max-width:767px){
+    .nav{
+        padding: 5px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+
+        text-transform: uppercase;
+        font-size: 20px;
+}
 }

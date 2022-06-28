@@ -11,16 +11,9 @@
     padding: 10px 0px;
 }
 
-.novedades{
-    /* Animaciones */
-    animation-duration: 14s;
-    animation-name: box2;
-    }
-@keyframes box2 {
-    0% {
-     opacity: 0;
-    }
-    100% {
-      opacity: 2;
-    }
+.text_novedeades--titulo{
+  background-color: rgba(0, 0, 0, 0.692);
+}
+.text_novedeades--subtitulo{
+  background-color: rgb(53, 53, 53);
 }
